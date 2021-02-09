@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		171B604B1323AC5124F1AD0A /* Pods_Meal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45C526321DE22C6DADE3D9D /* Pods_Meal.framework */; };
+		49DBAA1025D298DD00A0EE9D /* MealCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DBAA0F25D298DD00A0EE9D /* MealCore.framework */; };
 		49F5213725CE8DA3004370FB /* Meal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F5212D25CE8DA3004370FB /* Meal.framework */; };
 		49F5213C25CE8DA3004370FB /* MealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5213B25CE8DA3004370FB /* MealTests.swift */; };
 		49F5213E25CE8DA3004370FB /* Meal.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F5213025CE8DA3004370FB /* Meal.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,8 +30,6 @@
 		49F521F925CE9561004370FB /* IngredientTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F521F825CE9561004370FB /* IngredientTransformer.swift */; };
 		49F521FD25CE957D004370FB /* MealsTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F521FC25CE957D004370FB /* MealsTransformer.swift */; };
 		49F5220125CE9588004370FB /* MealTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5220025CE9588004370FB /* MealTransformer.swift */; };
-		49F5222D25CE99A2004370FB /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F5222C25CE99A2004370FB /* Core.framework */; };
-		49F5222E25CE99A2004370FB /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49F5222C25CE99A2004370FB /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,22 +42,9 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		49F5222F25CE99A2004370FB /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				49F5222E25CE99A2004370FB /* Core.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		2B91EA12201846096FC1BD38 /* Pods-Meal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meal.debug.xcconfig"; path = "Target Support Files/Pods-Meal/Pods-Meal.debug.xcconfig"; sourceTree = "<group>"; };
+		49DBAA0F25D298DD00A0EE9D /* MealCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MealCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F5212D25CE8DA3004370FB /* Meal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Meal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F5213025CE8DA3004370FB /* Meal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
 		49F5213125CE8DA3004370FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,8 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DBAA1025D298DD00A0EE9D /* MealCore.framework in Frameworks */,
 				171B604B1323AC5124F1AD0A /* Pods_Meal.framework in Frameworks */,
-				49F5222D25CE99A2004370FB /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +228,7 @@
 		A2E9F304EDC6C31B2B9FF643 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				49DBAA0F25D298DD00A0EE9D /* MealCore.framework */,
 				49F5222C25CE99A2004370FB /* Core.framework */,
 				E45C526321DE22C6DADE3D9D /* Pods_Meal.framework */,
 			);
@@ -271,7 +258,6 @@
 				49F5212925CE8DA3004370FB /* Sources */,
 				49F5212A25CE8DA3004370FB /* Frameworks */,
 				49F5212B25CE8DA3004370FB /* Resources */,
-				49F5222F25CE99A2004370FB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

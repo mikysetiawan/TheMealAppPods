@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Core
+import MealCore
 
 public struct CategoryTransformer: Mapper {
     public typealias Request = Any

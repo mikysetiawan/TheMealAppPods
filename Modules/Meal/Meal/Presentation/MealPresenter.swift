@@ -7,7 +7,7 @@
 
 import Foundation
 import Combine
-import Core
+import MealCore
 
 public class MealPresenter<MealUseCase: UseCase, FavoriteUseCase: UseCase>: ObservableObject
 where

@@ -5,7 +5,7 @@
 //  Created by Testing on 06/02/21.
 //
 
-import Core
+import MealCore
 
 public struct MealsTransformer<MealMapper: Mapper>: Mapper
 where

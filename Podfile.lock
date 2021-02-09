@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.4.1)
+  - MealCore (1.0.4):
+    - RealmSwift
+  - Realm (10.5.1):
+    - Realm/Headers (= 10.5.1)
+  - Realm/Headers (10.5.1)
+  - RealmSwift (10.5.1):
+    - Realm (= 10.5.1)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+  - SDWebImageSwiftUI (1.5.0):
+    - SDWebImage (~> 5.7)
+
+DEPENDENCIES:
+  - Alamofire
+  - MealCore
+  - RealmSwift
+  - SDWebImageSwiftUI
+
+SPEC REPOS:
+  https://github.com/mikysetiawan/Meal-CorePodSpecs.git:
+    - MealCore
+  trunk:
+    - Alamofire
+    - Realm
+    - RealmSwift
+    - SDWebImage
+    - SDWebImageSwiftUI
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  MealCore: 7bf7db08f66a2e47a7b26d57006fa7930c59839d
+  Realm: 77fcb4e0b9f2963ea06f584749a0d7dc9cab95e1
+  RealmSwift: 6abe6aa6cd8b70cc1a87afcb9232cabea74ff1ac
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  SDWebImageSwiftUI: 43687ffe232ddd33fe0659498b7ca9884fdd6b35
+
+PODFILE CHECKSUM: fce03e993ade509f798543229f9939d5f2c4ff03
+
+COCOAPODS: 1.10.1

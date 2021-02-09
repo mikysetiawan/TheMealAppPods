@@ -5,7 +5,7 @@
 //  Created by Testing on 06/02/21.
 //
 
-import Core
+import MealCore
 import RealmSwift
 
 public struct IngredientTransformer: Mapper {

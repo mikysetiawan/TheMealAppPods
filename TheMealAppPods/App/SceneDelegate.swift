@@ -8,7 +8,7 @@
 import UIKit
 import SwiftUI
 import RealmSwift
-import Core
+import MealCore
 import Category
 import Meal
 

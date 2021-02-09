@@ -7,7 +7,7 @@
 
 import Foundation
 import RealmSwift
-import Core
+import MealCore
 import Category
 import UIKit
 import Meal

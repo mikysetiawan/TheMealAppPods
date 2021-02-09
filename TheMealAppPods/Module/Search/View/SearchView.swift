@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Core
+import MealCore
 import Meal
 
 struct SearchView: View {

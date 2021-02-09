@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		495A236525D2AD25008B1ABA /* Meal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A236425D2AD25008B1ABA /* Meal.framework */; };
+		495A236625D2AD25008B1ABA /* Meal.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 495A236425D2AD25008B1ABA /* Meal.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		495A236825D2AD2A008B1ABA /* MealCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495A236725D2AD2A008B1ABA /* MealCore.framework */; };
 		49ABC60E25D02DCE00BE3995 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ABC60D25D02DCE00BE3995 /* ProfileView.swift */; };
 		49F5206D25CE8952004370FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5206C25CE8952004370FB /* AppDelegate.swift */; };
 		49F5206F25CE8952004370FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5206E25CE8952004370FB /* SceneDelegate.swift */; };
@@ -36,8 +39,6 @@
 		49F520CC25CE8BFC004370FB /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F520CB25CE8BFC004370FB /* MealView.swift */; };
 		49F520D125CE8C1E004370FB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F520D025CE8C1E004370FB /* SearchView.swift */; };
 		49F520D525CE8C26004370FB /* SearchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F520D425CE8C26004370FB /* SearchRow.swift */; };
-		49F5220525CE976A004370FB /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F5220425CE976A004370FB /* Core.framework */; };
-		49F5220625CE976A004370FB /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49F5220425CE976A004370FB /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49F5220925CE976E004370FB /* Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F5220825CE976E004370FB /* Category.framework */; };
 		49F5220A25CE976E004370FB /* Category.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 49F5220825CE976E004370FB /* Category.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		49F5220C25CE9772004370FB /* Meal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F5220B25CE9772004370FB /* Meal.framework */; };
@@ -53,8 +54,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				49F5220A25CE976E004370FB /* Category.framework in Embed Frameworks */,
-				49F5220625CE976A004370FB /* Core.framework in Embed Frameworks */,
 				49F5220D25CE9772004370FB /* Meal.framework in Embed Frameworks */,
+				495A236625D2AD25008B1ABA /* Meal.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +64,10 @@
 
 /* Begin PBXFileReference section */
 		197F9F517BC3A768704EE67B /* Pods-TheMealAppPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMealAppPods.debug.xcconfig"; path = "Target Support Files/Pods-TheMealAppPods/Pods-TheMealAppPods.debug.xcconfig"; sourceTree = "<group>"; };
+		495A236425D2AD25008B1ABA /* Meal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Meal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		495A236725D2AD2A008B1ABA /* MealCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MealCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49ABC60D25D02DCE00BE3995 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		49DBAA1725D2993E00A0EE9D /* MealCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MealCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F5206925CE8952004370FB /* TheMealAppPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMealAppPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F5206C25CE8952004370FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49F5206E25CE8952004370FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,8 +111,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CEB6884492CF5790863631 /* Pods_TheMealAppPods.framework in Frameworks */,
+				495A236825D2AD2A008B1ABA /* MealCore.framework in Frameworks */,
+				495A236525D2AD25008B1ABA /* Meal.framework in Frameworks */,
 				49F5220C25CE9772004370FB /* Meal.framework in Frameworks */,
-				49F5220525CE976A004370FB /* Core.framework in Frameworks */,
 				49F5220925CE976E004370FB /* Category.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +372,9 @@
 		6D3B55E46AE0EF85D730EB19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				495A236725D2AD2A008B1ABA /* MealCore.framework */,
+				495A236425D2AD25008B1ABA /* Meal.framework */,
+				49DBAA1725D2993E00A0EE9D /* MealCore.framework */,
 				49F5220B25CE9772004370FB /* Meal.framework */,
 				49F5220825CE976E004370FB /* Category.framework */,
 				49F5220425CE976A004370FB /* Core.framework */,

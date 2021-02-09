@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
-import Core
+import MealCore
 import Meal
 import Category
 

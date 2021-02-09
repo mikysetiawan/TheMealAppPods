@@ -8,7 +8,7 @@
 import SwiftUI
 import Category
 import Meal
-import Core
+import MealCore
 
 struct ContentView: View {
     @EnvironmentObject var homePresenter: GetListPresenter<Any, CategoryDomainModel, Interactor<Any, [CategoryDomainModel], GetCategoriesRepository<GetCategoriesLocaleDataSource, GetCategoriesRemoteDataSource, CategoryTransformer>>>

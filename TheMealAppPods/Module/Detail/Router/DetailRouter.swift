@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Category
-import Core
+import MealCore
 import Meal
 
 class DetailRouter {
